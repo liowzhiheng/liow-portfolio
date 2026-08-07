@@ -1,4 +1,4 @@
-import{Ja as e,Ka as t,Ra as n,wa as a}from"./chunk-PWFVVUD3.js";var r=class o{static \u0275fac=function(i){return new(i||o)};static \u0275cmp=a({type:o,selectors:[["app-home"]],decls:17,vars:0,consts:[[1,"hero"],[1,"hero-content"],[1,"tag"],[1,"description"],[1,"actions"],["href","/assets/resume.pdf",1,"primary"],["href","https://github.com"],["href","https://linkedin.com"]],template:function(i,s){i&1&&(e(0,"section",0)(1,"div",1)(2,"p",2),n(3,`
+import{Ja as e,Ka as t,Ra as n,wa as a}from"./chunk-OKRI237C.js";var r=class o{static \u0275fac=function(i){return new(i||o)};static \u0275cmp=a({type:o,selectors:[["app-home"]],decls:17,vars:0,consts:[[1,"hero"],[1,"hero-content"],[1,"tag"],[1,"description"],[1,"actions"],["href","/assets/resume.pdf",1,"primary"],["href","https://github.com"],["href","https://linkedin.com"]],template:function(i,s){i&1&&(e(0,"section",0)(1,"div",1)(2,"p",2),n(3,`
 SOFTWARE ENGINEER
 `),t(),e(4,"h1"),n(5,`
 Liow Zhi Heng
