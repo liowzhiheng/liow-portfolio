@@ -1,0 +1,116 @@
+<section 
+class="project-page"
+*ngIf="project">
+
+
+<div class="header">
+
+
+<h1>
+
+{{project.title}}
+
+</h1>
+
+
+<p>
+
+{{project.subtitle}}
+
+</p>
+
+
+</div>
+
+
+
+<div class="video">
+
+
+<iframe
+
+*ngIf="project.video"
+
+[src]="project.video"
+
+frameborder="0">
+
+</iframe>
+
+
+</div>
+
+
+
+<section class="description">
+
+
+<p>
+
+{{project.description}}
+
+</p>
+
+
+</section>
+
+
+
+<section class="technologies">
+
+
+<h2>
+
+Technology Stack
+
+</h2>
+
+
+<div class="badges">
+
+
+<span
+*ngFor="let tech of project.technologies">
+
+{{tech}}
+
+</span>
+
+
+</div>
+
+
+</section>
+
+
+
+<section class="gallery">
+
+
+<h2>
+
+Screenshots
+
+</h2>
+
+
+<div class="images">
+
+
+<img
+
+*ngFor="let image of project.screenshots"
+
+[src]="image"
+
+[alt]="project.title">
+
+
+</div>
+
+
+</section>
+
+
+
+</section>

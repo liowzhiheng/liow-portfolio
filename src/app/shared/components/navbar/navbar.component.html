@@ -1,0 +1,67 @@
+<nav class="navbar">
+
+  <div class="nav-container">
+
+    <a 
+      routerLink="/"
+      class="brand">
+      LZH
+    </a>
+
+
+    <button
+      class="menu-button"
+      (click)="toggleMenu()"
+      aria-label="Toggle menu">
+
+      ☰
+
+    </button>
+
+
+    <div 
+      class="nav-links"
+      [class.open]="menuOpen">
+
+
+      <a
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact:true}">
+        Home
+      </a>
+
+
+      <a
+        routerLink="/about"
+        routerLinkActive="active">
+        About
+      </a>
+
+
+      <a
+        routerLink="/experience"
+        routerLinkActive="active">
+        Experience
+      </a>
+
+
+      <a
+        routerLink="/projects"
+        routerLinkActive="active">
+        Projects
+      </a>
+
+
+      <a
+        routerLink="/contact"
+        routerLinkActive="active">
+        Contact
+      </a>
+
+
+    </div>
+
+  </div>
+
+</nav>

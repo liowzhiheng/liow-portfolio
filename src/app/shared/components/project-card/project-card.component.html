@@ -1,0 +1,29 @@
+
+<a class="card" [routerLink]="['/projects', project.id]">
+
+
+    <img [src]="project.screenshots[0]" [alt]="project.title">
+
+
+
+    <div class="content">
+
+
+        <h3>
+
+            {{project.title}}
+
+        </h3>
+
+
+        <p>
+
+            {{project.subtitle}}
+
+        </p>
+
+
+    </div>
+
+
+</a>
