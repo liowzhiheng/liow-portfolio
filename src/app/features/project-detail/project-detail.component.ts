@@ -3,15 +3,17 @@ import { ActivatedRoute } from '@angular/router';
 import { PROJECTS } from '../../data/project';
 import { Project } from '../../core/models/project';
 import { CommonModule } from '@angular/common';
+import { ImageCarouselComponent } from '../../shared/components/image-carousel/image-carousel.component';
 
 @Component({
 
   selector: 'app-project-detail',
 
   standalone: true,
-imports:[
-CommonModule
-],
+  imports: [
+    CommonModule,
+    [ImageCarouselComponent]
+  ],
 
   templateUrl: './project-detail.component.html',
 

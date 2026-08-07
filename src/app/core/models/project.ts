@@ -1,19 +1,19 @@
-export interface Project{
+export interface Project {
 
+    id: string;
 
-id:string;
+    title: string;
 
-title:string;
+    subtitle: string;
 
-subtitle:string;
+    description: string;
 
-description:string;
+    video: string;
 
-video:string;
+    thumbnail?: string;
 
-screenshots:string[];
+    screenshots: string[];
 
-technologies:string[];
-
+    technologies: string[];
 
 }

@@ -1,115 +1,96 @@
-<section 
-class="project-page"
-*ngIf="project">
+<section class="project-page" *ngIf="project">
 
 
-<div class="header">
+    <div class="header">
 
 
-<h1>
+        <h1>
 
-{{project.title}}
+            {{project.title}}
 
-</h1>
+        </h1>
 
 
-<p>
+        <p>
 
-{{project.subtitle}}
+            {{project.subtitle}}
 
-</p>
+        </p>
 
 
-</div>
+    </div>
 
 
 
-<div class="video">
+    <div class="video">
 
 
-<iframe
+        <iframe *ngIf="project.video" [src]="project.video" frameborder="0">
 
-*ngIf="project.video"
+        </iframe>
 
-[src]="project.video"
 
-frameborder="0">
+    </div>
 
-</iframe>
 
 
-</div>
+    <section class="description">
 
 
+        <p>
 
-<section class="description">
+            {{project.description}}
 
+        </p>
 
-<p>
 
-{{project.description}}
+    </section>
 
-</p>
 
 
-</section>
+    <section class="technologies">
 
 
+        <h2>
 
-<section class="technologies">
+            Technology Stack
 
+        </h2>
 
-<h2>
 
-Technology Stack
+        <div class="badges">
 
-</h2>
 
+            <span *ngFor="let tech of project.technologies">
 
-<div class="badges">
+                {{tech}}
 
+            </span>
 
-<span
-*ngFor="let tech of project.technologies">
 
-{{tech}}
+        </div>
 
-</span>
 
+    </section>
 
-</div>
 
 
-</section>
+    <section class="gallery">
 
 
+        <h2>
 
-<section class="gallery">
+            Screenshots
 
+        </h2>
 
-<h2>
 
-Screenshots
+        <app-image-carousel [images]="project.screenshots">
 
-</h2>
+        </app-image-carousel>
 
 
-<div class="images">
-
-
-<img
-
-*ngFor="let image of project.screenshots"
-
-[src]="image"
-
-[alt]="project.title">
-
-
-</div>
-
-
-</section>
+    </section>
 
 
 

@@ -4,82 +4,82 @@ import { Project } from '../core/models/project';
 export const PROJECTS: Project[] = [
 
 
-{
-id:'immerse-vr',
+    {
+        id: 'immerse-vr',
 
-title:
-'Mixed Reality Horror Game',
+        title:
+            'Mixed Reality Horror Game',
 
-subtitle:
-'Eye blinking detection and pattern recognition VR experience',
+        subtitle:
+            'Eye blinking detection and pattern recognition VR experience',
 
-description:
-'A mixed reality horror game developed using Unity and Pico 4 Enterprise. The project combines AI-based pattern recognition with eye blinking interaction to create an immersive horror experience.',
+        description:
+            'A mixed reality horror game developed using Unity and Pico 4 Enterprise. The project combines AI-based pattern recognition with eye blinking interaction to create an immersive horror experience.',
 
-video:
-'https://youtube.com',
+        video:
+            'https://youtube.com',
 
-screenshots:[
+        screenshots: [
 
-'/assets/projects/immerse-1.png',
+            '/assets/projects/immerse-1.png',
 
-'/assets/projects/immerse-2.png',
+            '/assets/projects/immerse-2.png',
 
-'/assets/projects/immerse-3.png'
+            '/assets/projects/immerse-3.png'
 
-],
+        ],
 
-technologies:[
+        technologies: [
 
-'Unity',
+            'Unity',
 
-'C#',
+            'C#',
 
-'Pico 4',
+            'Pico 4',
 
-'ONNX',
+            'ONNX',
 
-'OpenCV',
+            'OpenCV',
 
-'TensorFlow'
+            'TensorFlow'
 
-]
+        ]
 
-},
+    },
 
 
 
-{
-id:'jomteam',
+    {
+        id: 'jomteam',
 
-title:
-'JomTeam',
+        title:
+            'JomTeam',
 
-subtitle:
-'Sports buddy finder web application',
+        subtitle:
+            'Sports buddy finder web application',
 
-description:
-'A web platform that helps users create and join sports activities with real-time communication features.',
+        description:
+            'A web platform that helps users create and join sports activities with real-time communication features.',
 
-video:'',
+        video: '',
 
-screenshots:[
+        screenshots: [
 
-],
+        ],
 
-technologies:[
+        technologies: [
 
-'Angular',
+            'Angular',
 
-'PHP',
+            'PHP',
 
-'MySQL',
+            'MySQL',
 
-'JavaScript'
+            'JavaScript'
 
-]
+        ]
 
-}
+    }
 
 
 
