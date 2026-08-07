@@ -1,30 +1,13 @@
-export const EXPERIENCE=[
+import { Component } from '@angular/core';
+import { EXPERIENCE } from '../../data/experience'; 
 
-{
-
-company:"Keysight Technologies",
-
-position:"Software Engineering Intern",
-
-duration:"2025",
-
-description:
-"Worked on software development projects involving programming, debugging and engineering workflows."
-
-},
-
-
-{
-
-company:"Universiti Teknologi Malaysia",
-
-position:"Software Developer",
-
-duration:"2023-2026",
-
-description:
-"Developed software projects involving web applications, graphics and interactive systems."
-
+@Component({
+  selector: 'app-experience',
+  standalone: true,
+  imports: [], 
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.scss']
+})
+export class ExperienceComponent {
+  experiences = EXPERIENCE;
 }
-
-];
