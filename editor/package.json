@@ -1,0 +1,1 @@
+{"name":"portfolio-editor","private":true,"scripts":{"start":"npx http-server . -c-1","build":"node --check app.js"},"devDependencies":{"http-server":"^14.1.1"}}

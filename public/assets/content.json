@@ -1,0 +1,8 @@
+{
+  "profile": {"name":"Lin Yao","role":"独立设计师与前端开发者","intro":"","about":"我相信好的数字产品应当安静、清晰，并在每一次细节中照顾真实的人。这里记录我做过的设计、产品与实验。","avatar":"assets/images/avatar.svg","email":"hello@example.com","location":"Singapore · Available worldwide","resume":"assets/resume.pdf","availability":"目前开放合作机会"},
+  "hero":{"eyebrow":"DESIGNER · DEVELOPER · HUMAN","headline":"为重要的想法，做温柔而清晰的数字体验。","subhead":"我将策略、设计和代码融为一体，帮助品牌与产品从想法走到令人愉悦的真实体验。","primaryCta":"浏览作品","secondaryCta":"下载简历"},
+  "social":[{"label":"LinkedIn","url":"https://linkedin.com"},{"label":"GitHub","url":"https://github.com"},{"label":"Instagram","url":"https://instagram.com"}],
+  "skills":["Product Design","UI/UX","Design Systems","Angular","TypeScript","Prototyping","Creative Direction"],
+  "experience":[{"period":"2023 — Now","company":"Independent","title":"Designer & Developer","description":"与早期团队和成熟品牌合作，打造有策略、有辨识度的数字产品。"},{"period":"2020 — 2023","company":"Studio North","title":"Senior Product Designer","description":"主导从研究、体验架构到可扩展设计系统的产品设计工作。"}],
+  "projects":[{"title":"Horizon","category":"FINTECH · PRODUCT DESIGN","description":"为下一代个人财富管理工具构建更从容的体验。","image":"assets/images/project-1.svg","url":"https://example.com","featured":true},{"title":"Aster House","category":"HOSPITALITY · BRAND WEB","description":"将精品酒店的空间语言延展为柔和、沉浸的线上叙事。","image":"assets/images/project-2.svg","url":"https://example.com","featured":true},{"title":"Onda","category":"HEALTH · MOBILE APP","description":"让日常健康数据变得可理解、可行动。","image":"assets/images/project-3.svg","url":"https://example.com"}]
+}
