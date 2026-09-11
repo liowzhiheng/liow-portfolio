@@ -66,15 +66,6 @@ a {
 ::-webkit-scrollbar-thumb { border: 3px solid transparent; border-radius: 99px; background: var(--scroll); background-clip: padding-box }
 ::-webkit-scrollbar-thumb:hover { background-color: color-mix(in srgb, var(--scroll) 85%, var(--ink)); background-clip: padding-box }
 
-.progress {
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    height: 3px;
-    background: var(--accent);
-    transition: width .1s linear
-}
 
 @media(prefers-reduced-motion:reduce) {
     html {
