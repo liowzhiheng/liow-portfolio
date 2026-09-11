@@ -1,11 +1,12 @@
 :root {
     --bg: #f3f0ea;
     --ink: #1d1c1b;
-    --muted: #666762;
-    --line: #c9c6bf;
-    --card: rgba(255, 255, 255, .46);
-    --glass: rgba(255, 255, 255, .42);
-    --glass-border: rgba(255, 255, 255, .62);
+    --muted: #51524f;
+    --line: #c2beb7;
+    --card: rgba(255, 255, 255, .67);
+    --glass: rgba(255, 255, 255, .62);
+    --glass-border: rgba(255, 255, 255, .82);
+    --scroll: #89999a88;
     --accent: #216da1
 }
 
@@ -41,11 +42,12 @@ body:before {
 body.dark {
     --bg: #101215;
     --ink: #f2f1ee;
-    --muted: #b4b5b5;
-    --line: #505158;
-    --card: rgba(26, 30, 36, .52);
-    --glass: rgba(21, 24, 29, .52);
-    --glass-border: rgba(216, 225, 237, .14);
+    --muted: #c3c4c5;
+    --line: #55575e;
+    --card: rgba(25, 29, 35, .76);
+    --glass: rgba(20, 24, 29, .72);
+    --glass-border: rgba(216, 225, 237, .22);
+    --scroll: #92b8c088;
     --accent: #8ac3ee
 }
 
@@ -57,6 +59,12 @@ a {
     color: inherit;
     text-decoration: none
 }
+
+* { scrollbar-width: thin; scrollbar-color: var(--scroll) transparent }
+::-webkit-scrollbar { width: 10px; height: 10px }
+::-webkit-scrollbar-track { background: transparent }
+::-webkit-scrollbar-thumb { border: 3px solid transparent; border-radius: 99px; background: var(--scroll); background-clip: padding-box }
+::-webkit-scrollbar-thumb:hover { background-color: color-mix(in srgb, var(--scroll) 85%, var(--ink)); background-clip: padding-box }
 
 .progress {
     position: fixed;
